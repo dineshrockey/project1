@@ -1,0 +1,138 @@
+/* {
+
+background-color:floralwhite;
+background-size: 100%; */
+
+
+/* } */
+
+.input-div{
+
+display: flex;
+flex-wrap: wrap;
+flex-direction:row;
+gap: 20px;
+margin-left: 300px;
+margin-top: 40px;
+width: 600px;
+}
+
+.tablefordisplay ,td{
+
+margin-left: 150px;
+margin-top: 50px;
+text-align: center;
+width: 800px;
+
+border: 1px solid grey;
+
+}
+
+.tablefordisplay td{
+
+    background-color: black;
+    color: beige;
+}
+/* .tablefordisplay tr{
+
+    width: 800px;
+
+} */
+
+#option-save{
+
+    background-color: green;
+    color: black;
+}
+
+#option-edit{
+background-color: gold;
+color: black;
+
+}
+.input-div input{
+
+width: 200px;
+height: 30px;
+background: black;
+color: aqua;
+border: none;
+
+}
+
+#enter-btn{
+
+background-color: black;
+color: whitesmoke;
+border: none;
+margin-left: 200px;
+}
+
+#enter-btn:hover{
+
+    border: 2px  solid aqua;
+    cursor: pointer;
+    box-shadow: inset 1px 1px 1px;
+   
+}
+
+.h2-title,.h2-subtitle{
+
+margin-left: 450px;
+margin-top:  30px;
+ color: rgb(227, 227, 235);
+ /* font-size: 18px; */
+ font-weight: bold;
+ text-decoration: underline;
+
+}
+#th-list{
+
+border: 2px solid black;
+border-radius: 10px;
+background-color: beige;
+}
+
+
+
+/* enter button new animation */
+/* 
+@import url('https://fonts.googleapis.com/css?family=Lato:100&display=swap');
+
+
+.btn {
+    width: 180px;
+    height: 60px;
+    cursor: pointer;
+    background: transparent;
+    border: 1px solid #91C9FF;
+    outline: none;
+    transition: 1s ease-in-out;
+  }
+  
+  svg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    fill: none;
+    stroke: #fff;
+    stroke-dasharray: 150 480;
+    stroke-dashoffset: 150;
+    transition: 1s ease-in-out;
+  }
+  
+  .btn:hover {
+    transition: 1s ease-in-out;
+    background: #4F95DA;
+  }
+  
+  .btn:hover svg {
+    stroke-dashoffset: -480;
+  }
+  
+  .btn span {
+    color: white;
+    font-size: 18px;
+    font-weight: 100;
+  }
+   */

@@ -1,0 +1,289 @@
+section{
+    cursor: pointer;
+
+/* border: 1px solid black; */
+display: flex;
+justify-content: space-between;
+width: 300px;
+height: 80px;
+padding: 10px 10px 10px 10px;
+color: whitesmoke;
+font-size: 16px;
+font-style: oblique;
+font-variant: small-caps;
+
+}
+
+/* body{
+
+background: linear-gradient(to bottom, #fbc02d, #f44336);
+
+} */
+
+.icon-set{
+font-size: 40px;
+
+
+}
+
+
+#maincontainer{
+/* background-color: rgb(190, 189, 187); */
+    display: grid;
+    grid-template-columns: repeat(3,300px);
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    /* flex-direction: column; */
+    /* grid-template-rows: repeat(); */
+    gap: 40px;
+    /* height: 40px; */
+    /* width: 800px; */
+/* background: linear-gradient(to bottom, #00bcd4,#3f51b5); */
+
+    margin-left: 150px;
+    margin-top: 80px;
+
+
+}
+body{
+
+/* background-color: rgb(191, 193, 195); */
+background: linear-gradient(135deg,#ff88a8,#fbc02d,#c288ff,#88e2ff,#ff88c8 );
+animation: gradientAnimation 10s ease infinite;
+background-size: 600% 600%;
+
+}
+
+@keyframes gradientAnimation{
+    0%{
+        background-position: 0% 50%;
+
+    }
+50%{ background-position:100% 50%}
+100%{background-position: 0% 50%}
+
+}
+
+.formcontainer{
+
+margin-top: 110px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 40px;
+    
+
+}
+.submit1{
+
+    background-color: black;
+    color: blanchedalmond;
+
+}
+.submit1:hover{
+    cursor: pointer;
+
+    border: 5px solid aqua;
+
+}
+
+.tr-headers{
+
+border: 2px solid black;
+border-collapse: collapse;
+
+}
+
+.tablecontainer{
+background-color: beige;
+    /* font-style: oblique; */
+    font-variant: small-caps;
+   text-align: center;
+    border: 1px solid black;
+    margin-left: 100px;
+    margin-top: 100px;
+    width: 900px;
+}
+.tbody-header{
+
+    background-color:burlywood;
+}
+
+.editbtn{
+    cursor: pointer;
+    background-color:  blue;
+    color:cornsilk;
+    border: none;
+
+}
+
+.editbtn:hover{
+
+    border: 1px solid aqua;
+
+}
+.delbtn:hover{
+
+    border: 1px solid aqua;
+
+}
+.addbtn:hover{
+
+    border: 1px solid aqua;
+
+}
+.delbtn{
+cursor: pointer;
+    background-color: red;
+    color:beige;
+    border: none;
+}
+
+.addbtn{
+    background-color:   rgba(0, 0, 0, 0.5) ;
+    color: gold;
+    border: none;
+    margin-left: 30px;
+    text-align: center;
+    cursor:pointer;
+
+}
+
+.date1{
+
+border: none;
+}
+
+.name1{
+    border: none;
+}
+.reson1{
+    border: none;
+}
+/* .
+tr-subheaders2{
+text-align: center;
+border: none;
+} */
+
+.tdadd{
+
+   margin-left: 40px;
+
+}
+
+/* present page css styleshetts below */
+
+.green-checkbox input[type = "checkbox"]:checked {
+
+    background-color: green;
+}
+
+.btn-edit{
+
+    background: yellow;
+    color: black;
+    border: none;
+
+}
+
+.btn-add{
+
+    background-color: black;
+    color: aqua;
+    border: none;
+
+}
+
+.row1{
+
+    border: 2px solid black;
+}
+#table-contain{
+
+    border: outset;
+    margin-left: 170px;
+    margin-top: 80px;
+    width: 900px;
+}
+#tbody-contain{
+
+    background-color:rgba(255, 128, 0, 0.5);
+}
+.present-box{
+
+    width: 20px;
+    border: 2px solid black;
+}
+
+#table-contain tr{
+
+/* border:groove green ; */
+text-align: center;
+
+}
+
+#table-contain th{
+text-align: center;
+    border: 3px solid black;
+}
+
+
+.quote-contain{
+ 
+    background-image: url(educate.avif);
+    /* background-repeat: no-repeat; */
+    background-position:   center -40px;
+background-size: cover;
+padding-left: 20px;
+    width: 500px ;
+    height: 200px;
+    /* filter: contrast(0.7); */
+    /* opacity: 0.7; */
+    margin-left: 400px;
+    margin-top: 30px;
+    border: 5px solid black;
+/* z-index: 1; */
+position: relative;
+}
+
+.quotation{
+    position: absolute;
+z-index: 1;
+color:yellowgreen;
+filter: brightness(3.0);
+/* opacity: 1.7; */
+font-size: 20px;
+text-shadow: 4px 4px 4px goldenrod;
+/* margin-bottom: -4%; */
+margin-top: 40px;
+margin-left: -10px;
+/* position: left; */
+text-align: start;
+word-spacing: 1px;
+letter-spacing: 1px;
+/* text-transform: uppercase; */
+font-variant: small-caps;
+}
+
+/* .span-quote{
+
+    opacity: 1;
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Handjet:wght@300&display=swap');
+
+.heading-1{
+
+    font-family: 'Handjet', cursive;
+    font-variant: small-caps;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    font-size: 40px;
+    font-weight:bold;
+
+    text-align: center;
+ text-decoration: underline;
+ color: gold; 
+}
